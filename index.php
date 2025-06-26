@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IoT Dashboard | G231.22.0167</title>
+    <title>IoT Dashboard | G231.22.0174</title>
 
     <!-- Tailwind CSS for styling -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -47,7 +47,7 @@
                 <span id="status-dot" class="status-dot bg-yellow-500 animate-pulse"></span>
                 <p id="connection-status" class="text-md text-gray-500 dark:text-gray-400">Connecting to MQTT Broker...</p>
             </div>
-            <p class="text-sm text-gray-400 dark:text-gray-500 mt-1">Client ID: G231220167</p>
+            <p class="text-sm text-gray-400 dark:text-gray-500 mt-1">Client ID: G231220174</p>
         </header>
 
         <!-- Data Cards -->
@@ -108,9 +108,9 @@
         const mqtt_port = 9001;
         const mqtt_user = "usm";
         const mqtt_pass = "usmjaya1";
-        const clientID = "web_G231220167_" + parseInt(Math.random() * 1000);
+        const clientID = "web_G231220174_" + parseInt(Math.random() * 1000);
 
-        const topic_sub = "iot/G231220167";
+        const topic_sub = "iot/G231220174";
 
         // --- DOM Element References ---
         const statusDot = document.getElementById('status-dot');
